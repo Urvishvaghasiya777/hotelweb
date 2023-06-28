@@ -39,8 +39,7 @@ const columns = [
 // ]
 const SignUpShow = () => {
   const [table, setTable] = useState([]);
-
-  const [search, setSerach] = useState(); // search ============
+   const [search, setSerach] = useState(); // search ============
 
   const allData = () => {
     axios
